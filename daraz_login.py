@@ -7,7 +7,7 @@ def handle_login():
     email = email_input.get()
     password = password_input.get()
 
-    if email == "abc" and password == "1234":
+    if email == "abc@gmail.com" and password == "1234":
         messagebox.showinfo("Yayyy", "Login Successful")
     else:
         messagebox.showerror("Error", "Login Failed")
